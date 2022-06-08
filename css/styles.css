@@ -82,9 +82,21 @@ nav li {
     text-align: center;
 }
 
-.seach-section input {
-    margin-top: 30px;
+input {
+    border-radius: 5px;
+    border: 0px none #FFF;
+}
+
+#seacrh-input {
+    margin-top: 5px;
     padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: 2px solid #79BAAB;
+    background: url("../img/icons/search.svg") no-repeat scroll 7px 7px;
+    background-color: #FFF;
+
+    padding-left: 30px;
 }
 
 /* MAIN CONTENTS */
@@ -107,7 +119,8 @@ h1, h2, h3, h6 {
     margin-bottom: 25px;
 }
 h2 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
+    text-transform: none;
 }
 h3 {
     font-size: 2.2rem;
